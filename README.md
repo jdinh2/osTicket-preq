@@ -16,10 +16,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Windows 10</b> (21H2)
 
 <h2>List of Prerequisites</h2>
+
 - Create Virtual Machine in Azure
--Create an Azure Virtual Machine Windows 10, 4 vCPUs
--Install / Enable IIS in Windows WITH
--PHP Manager for IIS
+- Create an Azure Virtual Machine Windows 10, 4 vCPUs
+- Install / Enable IIS in Windows WITH
+- PHP Manager for IIS
 
 <h2>Installation Steps</h2>
 
