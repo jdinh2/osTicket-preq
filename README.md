@@ -41,6 +41,12 @@ World Wide Web Services -> Application Development Features ->
 AND IIS Management Console
 Internet Information Services -> Web Management Tools -> IIS Management Console
 	[X] IIS Management Console
+
+ </br>
+<img src="https://i.gyazo.com/79d9b3e754cd4a6a2eacc124b6202626.png"/>
+
+To test if this worked, use the browser to go to 127.0.0.1, it should look like this. IF it does not, uncheck the same boxes, click OK, and recheck the boxes. 
+ 
 Using these installation [files](https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6), download and install PHP
 
 From the Installation Files, download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
@@ -61,6 +67,9 @@ Password1 (Does not matter, you choose it)
 
 Open IIS as an Admin
 
+<img src="https://i.gyazo.com/f65e1264fd80ff2844330d4038324595.png"/>
+
+
 Register PHP from within IIS
 
 Reload IIS (Open IIS, Stop and Start the server)
@@ -73,7 +82,11 @@ Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
 Reload IIS (Open IIS, Stop and Start the server)
 
 Go to sites -> Default -> osTicket
-On the right, click “Browse *:80”
+
+
+<img src="https://i.gyazo.com/6a85752c3a668f237810205390b2c1b9.png"/>
+
+On the right, click “Browse *:80” If an error message appears, you may made a mistake or need to redo the whole process above. 
 
 Note that some extensions are not enabled
 Go back to IIS, sites -> Default -> osTicket
