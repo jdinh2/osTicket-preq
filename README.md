@@ -97,6 +97,12 @@ Enable: php_intl.dll
 Enable: php_opcache.dll
 Refresh the osTicket site in your browse, observe the changes
 
+
+<img src="https://i.gyazo.com/d2fa4c6d1514de5b69c0792e9bcdea32.png"/>
+
+
+
+
 Rename: ost-config.php
 From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
 To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
@@ -121,7 +127,10 @@ MySQL Username: root
 MySQL Password: Password1
 Click “Install Now!”
 
-Congratulations, hopefully it is installed with no errors!
+<img src="https://i.gyazo.com/5f215b4a9c4d6d93b0a8d8b3de57bcfe.png"/>
+
+If you see this screen, congratulations! Hopefully it is installed with no errors!
+
 Browse to your help desk login page: http://localhost/osTicket/scp/login.php
 
 End Users osTicket URL:
